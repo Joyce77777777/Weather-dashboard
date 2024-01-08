@@ -1,0 +1,80 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: rgb(55, 55, 165);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+}
+
+#search-section {
+    padding: 10px;
+    width: 20%;
+}
+
+#search-button {
+    background-color: #3286bd;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#current-weather {
+    
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #090909; 
+    
+}
+
+#forecast-weather {
+
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    
+}
+
+.forecast-day {
+    display: inline-block;
+    margin-right: 30px;
+    background-color: #2c3e50;
+    color: aliceblue;
+
+}
+
+#search-history {
+    list-style-type: none;
+    padding-left: 0; 
+    margin-top: 20px; 
+}
+
+#search-history li {
+    background-color: #6e6e6e; 
+    padding: 10px 10px;
+    margin-bottom: 5px; 
+    cursor: pointer; 
+    border: 1px solid #cccccc; 
+    border-radius: 5px; 
+    font-size: smaller;
+    text-align: center;
+}
+
+#search-history li:hover {
+    background-color: #797878; }
+
+
+
